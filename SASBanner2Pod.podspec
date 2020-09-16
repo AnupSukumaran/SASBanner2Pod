@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SASBanner2'
-  s.version          = '1.0.5'
+  s.version          = '1.0.6'
   s.summary          = 'SASBanner2 - new version of SASBanner.'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'AnupSukumaran' => 'anup.sukumaran9@gmail.com' }
-  s.source           = { :git => 'https://github.com/AnupSukumaran/SASBanner2.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/AnupSukumaran/SASBanner2Pod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
