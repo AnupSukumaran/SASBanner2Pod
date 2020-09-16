@@ -22,7 +22,7 @@ public class ScrollViewBlock: UIView {
     public var webViewBGC: UIColor = #colorLiteral(red: 0.6000000238, green: 0.6000000238, blue: 0.6000000238, alpha: 1)
     public var contentViewBGC: UIColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
     public var gameTimer: Timer?
-
+    public var scrollInterval: TimeInterval = 2
     override init(frame: CGRect) {
         super.init(frame: frame)
         xibSetup(bgColor: viewBGColor)
@@ -33,10 +33,13 @@ public class ScrollViewBlock: UIView {
         xibSetup(bgColor: viewBGColor)
     }
     
-    public func congifBanner(images: [UIImage?]?, baseVC: UIViewController,imageFit: UIImageView.ContentMode) {
+    public func congifBanner(images: [UIImage?]?, baseVC: UIViewController,imageFit: UIImageView.ContentMode, scrollInterval: TimeInterval = 2) {
         self.images = images
         settingPageViewController(baseVC: baseVC, imageContentFit: imageFit)
-        gameTimer = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(authenticate), userInfo: nil, repeats: true)
+        self.scrollInterval = scrollInterval
+        guard scrollInterval > 0 else {return}
+        
+        gameTimer = Timer.scheduledTimer(timeInterval: scrollInterval, target: self, selector: #selector(authenticate), userInfo: nil, repeats: true)
 
     }
     
@@ -50,7 +53,7 @@ public class ScrollViewBlock: UIView {
     
     public func startAutoScroll(){
         stopAutoScroll()
-        gameTimer = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(authenticate), userInfo: nil, repeats: true)
+        gameTimer = Timer.scheduledTimer(timeInterval: scrollInterval, target: self, selector: #selector(authenticate), userInfo: nil, repeats: true)
     }
 
 }
