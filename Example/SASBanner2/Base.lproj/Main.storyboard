@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -18,13 +16,56 @@
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C2w-rV-Lui" customClass="ScrollViewBlock" customModule="SASBanner2">
+                                <rect key="frame" x="0.0" y="44" width="414" height="237"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="237" id="Hru-CA-Z8Y"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NwI-fv-0Wi">
+                                <rect key="frame" x="150" y="418" width="114" height="61"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="61" id="9JR-5N-CSp"/>
+                                    <constraint firstAttribute="width" constant="114" id="F2T-QH-Ps7"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="btnAction" destination="vXZ-lx-hvc" eventType="touchUpInside" id="91M-mZ-Ovr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hnE-Po-sQj">
+                                <rect key="frame" x="150" y="526" width="114" height="61"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="btnAction2" destination="vXZ-lx-hvc" eventType="touchUpInside" id="G1E-H0-VnS"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hnE-Po-sQj" firstAttribute="width" secondItem="NwI-fv-0Wi" secondAttribute="width" id="5Ra-Pd-Fs7"/>
+                            <constraint firstItem="hnE-Po-sQj" firstAttribute="top" secondItem="NwI-fv-0Wi" secondAttribute="bottom" constant="47" id="DEM-BD-Kn9"/>
+                            <constraint firstItem="NwI-fv-0Wi" firstAttribute="centerX" secondItem="C2w-rV-Lui" secondAttribute="centerX" id="Km3-pc-3rW"/>
+                            <constraint firstItem="hnE-Po-sQj" firstAttribute="height" secondItem="NwI-fv-0Wi" secondAttribute="height" id="Ohp-Ed-usQ"/>
+                            <constraint firstItem="NwI-fv-0Wi" firstAttribute="top" secondItem="C2w-rV-Lui" secondAttribute="bottom" constant="137" id="PqJ-RT-75b"/>
+                            <constraint firstItem="C2w-rV-Lui" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="WCu-aR-nIq"/>
+                            <constraint firstItem="hnE-Po-sQj" firstAttribute="centerX" secondItem="NwI-fv-0Wi" secondAttribute="centerX" id="X3T-Lh-T9O"/>
+                            <constraint firstItem="C2w-rV-Lui" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="svB-rU-bIC"/>
+                            <constraint firstAttribute="trailing" secondItem="C2w-rV-Lui" secondAttribute="trailing" id="zi1-Hc-3gC"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="bannerView" destination="C2w-rV-Lui" id="wQh-B4-jRV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-39.130434782608695" y="118.52678571428571"/>
         </scene>
     </scenes>
 </document>
