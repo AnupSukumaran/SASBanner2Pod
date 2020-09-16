@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SASBanner2'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'SASBanner2 - new version of SASBanner.'
 
 # This description is used to generate tags and improve search results.
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 'Simple basic Horizontal Scrollable Banner View For Apps Development'
                        DESC
 
-  s.homepage         = 'https://github.com/AnupSukumaran/SASBanner2'
+  s.homepage         = 'https://github.com/AnupSukumaran/SASBanner2Pod.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'AnupSukumaran' => 'anup.sukumaran9@gmail.com' }
