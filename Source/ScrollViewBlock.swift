@@ -38,7 +38,6 @@ public class ScrollViewBlock: UIView {
         settingPageViewController(baseVC: baseVC, imageContentFit: imageFit)
         gameTimer = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(authenticate), userInfo: nil, repeats: true)
 
-        //perform(#selector(authenticate), with: nil, afterDelay: 1)
     }
     
     @objc func authenticate() {
