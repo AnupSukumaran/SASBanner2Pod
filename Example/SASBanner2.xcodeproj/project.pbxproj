@@ -15,7 +15,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		9957C4998CC9D3E5E2B22E07 /* Pods_SASBanner2_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DA92E2138728322311CAD4E /* Pods_SASBanner2_Tests.framework */; };
-		9D4D667B251237270026008B /* SASBanner2Pod.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9D4D667A251237270026008B /* SASBanner2Pod.podspec */; };
+		9D4D667B251237270026008B /* SASBanner2.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9D4D667A251237270026008B /* SASBanner2.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +47,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6DA92E2138728322311CAD4E /* Pods_SASBanner2_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SASBanner2_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D4D667A251237270026008B /* SASBanner2Pod.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SASBanner2Pod.podspec; path = ../SASBanner2Pod.podspec; sourceTree = "<group>"; };
+		9D4D667A251237270026008B /* SASBanner2.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SASBanner2.podspec; path = ../SASBanner2.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,7 +142,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				9D4D667A251237270026008B /* SASBanner2Pod.podspec */,
+				9D4D667A251237270026008B /* SASBanner2.podspec */,
 				057DF0FEE92CB815D2F38ED5 /* README.md */,
 				046064122658302785E06E44 /* LICENSE */,
 			);
@@ -251,7 +251,7 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
-				9D4D667B251237270026008B /* SASBanner2Pod.podspec in Resources */,
+				9D4D667B251237270026008B /* SASBanner2.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

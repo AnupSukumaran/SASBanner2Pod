@@ -45,7 +45,7 @@
 
 /* Begin PBXFileReference section */
 		089E3A14F4CCE7A46C06BD57F0AAE5B8 /* Pods-SASBanner2_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SASBanner2_Example.release.xcconfig"; sourceTree = "<group>"; };
-		08D30388DC10821A0E9B311A20D80F2C /* SASBanner2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SASBanner2.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		08D30388DC10821A0E9B311A20D80F2C /* SASBanner2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SASBanner2.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		0C54F650121D397C6AF32D466D198149 /* Pods-SASBanner2_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SASBanner2_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		0F73E3CA16D7482502CD1F722EAEDC5F /* Pods-SASBanner2_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SASBanner2_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1945FFBFDD238D232BBF2EBBCC086126 /* SASBanner2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SASBanner2-dummy.m"; sourceTree = "<group>"; };
