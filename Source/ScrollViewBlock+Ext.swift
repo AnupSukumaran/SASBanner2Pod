@@ -44,6 +44,7 @@ extension ScrollViewBlock: UIScrollViewDelegate {
         if let imgs = images {
             pageVC.images = imgs.compactMap{$0}
         }
+        pageVC.pageDelegate = self
         pageVC.imageContentFit = imageContentFit
         pageControl.isHidden = false
         baseVC.view.bringSubviewToFront(pageControl)
@@ -71,5 +72,17 @@ extension ScrollViewBlock: UIScrollViewDelegate {
         let pageIndex = round(scrollView.contentOffset.x/view.frame.width)
         pageControl.currentPage = Int(pageIndex)
     }
+    
+}
+
+extension ScrollViewBlock: PageSlideViewControllerDelegate {
+    public func timer(started: Bool) {
+        if started {
+            startAutoScroll()
+        } else {
+            stopAutoScroll()
+        }
+    }
+    
     
 }

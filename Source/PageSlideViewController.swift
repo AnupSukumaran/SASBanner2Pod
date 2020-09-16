@@ -7,12 +7,18 @@
 
 import UIKit
 
+public protocol PageSlideViewControllerDelegate: class {
+    func timer(started: Bool)
+    
+}
+
 public class PageSlideViewController: UIPageViewController {
 
    var images = [UIImage]()
    var imageContentFit: UIImageView.ContentMode = .scaleAspectFit
    var currentIndex = 0
    var itemIndex = 0
+   weak public var pageDelegate: PageSlideViewControllerDelegate?
     
     public override func viewDidLoad() {
         super.viewDidLoad()
@@ -100,9 +106,16 @@ extension PageSlideViewController: UIPageViewControllerDataSource, UIPageViewCon
         if completed {
             if let contentViewController = pageViewController.viewControllers?.first as? ImageViewController {
                 currentIndex = contentViewController.index
+                let timeInterval = (pageDelegate as? ScrollViewBlock)?.scrollInterval ?? 2
+                perform(#selector(dealyedAction), with: nil, afterDelay: timeInterval)
+                pageDelegate?.timer(started: false)
             }
         }
         
+    }
+    
+    @objc func dealyedAction() {
+        pageDelegate?.timer(started: true)
     }
     
     
