@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SASBanner2_Example' do
+  pod 'SASBanner2', :path => '../'
+
+  target 'SASBanner2_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
