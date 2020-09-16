@@ -1,0 +1,819 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C014407ECDE19F59D181B99B60C7FFC /* Pods-SASBanner2_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBBE9C7715D59E9DDC7BC551E48DF6B /* Pods-SASBanner2_Tests-dummy.m */; };
+		14F0F99DE18EB95EFCE46ED60D2B1A8D /* Pods-SASBanner2_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA2448E2B8464A7607CB878CD53C4EE /* Pods-SASBanner2_Example-dummy.m */; };
+		44F216FED60ADFEC0684DCC41ECD2462 /* Pods-SASBanner2_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69333BF1D43418EDB21B4BFDE60F4ABF /* Pods-SASBanner2_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6385CDC5C9DEE1878A532E68A03D5F47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		80DDAE43CAB132DC96791151BF1E28DF /* SASBanner2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1A6C62A8759F9AD8907699F8E7294EF /* SASBanner2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98C0A1BAA01275D787CAD4346EB63C23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9D4D667325122EE00026008B /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4D666A25122E9F0026008B /* ImageViewController.swift */; };
+		9D4D667425122EE60026008B /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D4D666B25122E9F0026008B /* ImageViewController.xib */; };
+		9D4D667525122EE60026008B /* PageSlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4D666925122E9F0026008B /* PageSlideViewController.swift */; };
+		9D4D667625122EE60026008B /* PageSlideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D4D666725122E9E0026008B /* PageSlideViewController.xib */; };
+		9D4D667725122EE60026008B /* ScrollViewBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4D666625122E9E0026008B /* ScrollViewBlock.swift */; };
+		9D4D667825122EE60026008B /* ScrollViewBlock.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D4D666825122E9E0026008B /* ScrollViewBlock.xib */; };
+		9D4D667925122EE60026008B /* ScrollViewBlock+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4D666525122E9E0026008B /* ScrollViewBlock+Ext.swift */; };
+		AD2105ED4ADD8CF5D038235DB6E1D9EE /* Pods-SASBanner2_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8AA7D724B27AE06B421535581C8E986 /* Pods-SASBanner2_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCA75E296314E1A721012D20B25D9F3F /* SASBanner2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1945FFBFDD238D232BBF2EBBCC086126 /* SASBanner2-dummy.m */; };
+		E92C17E20151D518142619BB90C8A159 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F51A0F8999DA2B4801CDC3633E06FDE8 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44D4C5915C2966EAC9154382B3EE677 /* ReplaceMe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01BFC47D6AD1B39F4EC1BAEE6D9E26F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5858E8AE7D5C0CD3DDB52346C91DCC10;
+			remoteInfo = SASBanner2;
+		};
+		CB139841275FCCD9D780D1BCEF3CEBB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9E2DFE3E40EB0A82CBBCE2864827272;
+			remoteInfo = "Pods-SASBanner2_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		089E3A14F4CCE7A46C06BD57F0AAE5B8 /* Pods-SASBanner2_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SASBanner2_Example.release.xcconfig"; sourceTree = "<group>"; };
+		08D30388DC10821A0E9B311A20D80F2C /* SASBanner2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SASBanner2.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0C54F650121D397C6AF32D466D198149 /* Pods-SASBanner2_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SASBanner2_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0F73E3CA16D7482502CD1F722EAEDC5F /* Pods-SASBanner2_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SASBanner2_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1945FFBFDD238D232BBF2EBBCC086126 /* SASBanner2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SASBanner2-dummy.m"; sourceTree = "<group>"; };
+		1F67DD422C903FC9000C279AEDCEFBDD /* SASBanner2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SASBanner2.modulemap; sourceTree = "<group>"; };
+		1F6E05BCD86D232FAD6173DCBB0129A9 /* SASBanner2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SASBanner2.release.xcconfig; sourceTree = "<group>"; };
+		28E020DB14F37E90D891D46C64139A62 /* Pods-SASBanner2_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SASBanner2_Example-Info.plist"; sourceTree = "<group>"; };
+		2BE3E6347B0A019398CD8B7CC5AAA9FE /* Pods-SASBanner2_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SASBanner2_Tests.modulemap"; sourceTree = "<group>"; };
+		2C3CAC102A04E3137445A1D0FE9B0348 /* Pods-SASBanner2_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SASBanner2_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3347F22A2CA2752F2553C9A81046C7C4 /* SASBanner2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SASBanner2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C142D574EAF9937FBB86BEAD06B70E7 /* Pods_SASBanner2_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SASBanner2_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63E7442B03EBDEC260B65AA94C774D87 /* Pods-SASBanner2_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SASBanner2_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		69333BF1D43418EDB21B4BFDE60F4ABF /* Pods-SASBanner2_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SASBanner2_Tests-umbrella.h"; sourceTree = "<group>"; };
+		75FE7DE634E5C93249077A7B93B7472B /* Pods_SASBanner2_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SASBanner2_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79254FBE19D8373CC5E0568B129512EF /* SASBanner2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SASBanner2-Info.plist"; sourceTree = "<group>"; };
+		7CFB8E682AAC2861CE353E96D12ACB3B /* Pods-SASBanner2_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SASBanner2_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9621E0FD45BFF4E650BDC7F53EC321AE /* Pods-SASBanner2_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SASBanner2_Example.modulemap"; sourceTree = "<group>"; };
+		9D4D666525122E9E0026008B /* ScrollViewBlock+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ScrollViewBlock+Ext.swift"; sourceTree = "<group>"; };
+		9D4D666625122E9E0026008B /* ScrollViewBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewBlock.swift; sourceTree = "<group>"; };
+		9D4D666725122E9E0026008B /* PageSlideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageSlideViewController.xib; sourceTree = "<group>"; };
+		9D4D666825122E9E0026008B /* ScrollViewBlock.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScrollViewBlock.xib; sourceTree = "<group>"; };
+		9D4D666925122E9F0026008B /* PageSlideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageSlideViewController.swift; sourceTree = "<group>"; };
+		9D4D666A25122E9F0026008B /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		9D4D666B25122E9F0026008B /* ImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageViewController.xib; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0BA5264E64250B2196C14CCB500BE11 /* SASBanner2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SASBanner2.debug.xcconfig; sourceTree = "<group>"; };
+		AF768A241959A758EC1195F133D49607 /* Pods-SASBanner2_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SASBanner2_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B254DFE839C33441A9A19B29688A3FE6 /* Pods-SASBanner2_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SASBanner2_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B9EDD1C0FEB3716ADA83DB5B85B43062 /* Pods-SASBanner2_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SASBanner2_Tests-Info.plist"; sourceTree = "<group>"; };
+		BBA2448E2B8464A7607CB878CD53C4EE /* Pods-SASBanner2_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SASBanner2_Example-dummy.m"; sourceTree = "<group>"; };
+		C183131B39F5AA4F3E0CB3AC49DB0E5B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D4F2C8C601A7ADB1F03F79B7D02FFD9C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D5F3819B0646F5A25D0F6D4DD06E03F0 /* Pods-SASBanner2_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SASBanner2_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D610A7A12A4A8AC4BE55EAC68EFF75D4 /* SASBanner2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SASBanner2-prefix.pch"; sourceTree = "<group>"; };
+		E1A6C62A8759F9AD8907699F8E7294EF /* SASBanner2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SASBanner2-umbrella.h"; sourceTree = "<group>"; };
+		E44D4C5915C2966EAC9154382B3EE677 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SASBanner2/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		F8AA7D724B27AE06B421535581C8E986 /* Pods-SASBanner2_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SASBanner2_Example-umbrella.h"; sourceTree = "<group>"; };
+		FCBBE9C7715D59E9DDC7BC551E48DF6B /* Pods-SASBanner2_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SASBanner2_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2D5FBDDB0B749A867785C1FFFF2B651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6385CDC5C9DEE1878A532E68A03D5F47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD6AEB884195C985489555319D8F2DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C0A1BAA01275D787CAD4346EB63C23 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7BFD56A66B891A039C0C1D7080B815A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92C17E20151D518142619BB90C8A159 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63CDB61B13B5DEED669B1D70AB170D26 /* Pods-SASBanner2_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9621E0FD45BFF4E650BDC7F53EC321AE /* Pods-SASBanner2_Example.modulemap */,
+				D5F3819B0646F5A25D0F6D4DD06E03F0 /* Pods-SASBanner2_Example-acknowledgements.markdown */,
+				0C54F650121D397C6AF32D466D198149 /* Pods-SASBanner2_Example-acknowledgements.plist */,
+				BBA2448E2B8464A7607CB878CD53C4EE /* Pods-SASBanner2_Example-dummy.m */,
+				7CFB8E682AAC2861CE353E96D12ACB3B /* Pods-SASBanner2_Example-frameworks.sh */,
+				28E020DB14F37E90D891D46C64139A62 /* Pods-SASBanner2_Example-Info.plist */,
+				F8AA7D724B27AE06B421535581C8E986 /* Pods-SASBanner2_Example-umbrella.h */,
+				63E7442B03EBDEC260B65AA94C774D87 /* Pods-SASBanner2_Example.debug.xcconfig */,
+				089E3A14F4CCE7A46C06BD57F0AAE5B8 /* Pods-SASBanner2_Example.release.xcconfig */,
+			);
+			name = "Pods-SASBanner2_Example";
+			path = "Target Support Files/Pods-SASBanner2_Example";
+			sourceTree = "<group>";
+		};
+		8FC0BAAF57F03CB81EEA0049278798D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75FE7DE634E5C93249077A7B93B7472B /* Pods_SASBanner2_Example.framework */,
+				4C142D574EAF9937FBB86BEAD06B70E7 /* Pods_SASBanner2_Tests.framework */,
+				3347F22A2CA2752F2553C9A81046C7C4 /* SASBanner2.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93D8BB9178F5A2A46CB209D82B361801 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3E7DA88B8033351F79FD179881C901F /* SASBanner2 */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		93DCB9C9EFBCB79A30E745A526865CA3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63CDB61B13B5DEED669B1D70AB170D26 /* Pods-SASBanner2_Example */,
+				EDF9F48F882BAF32AE440D81436FFB08 /* Pods-SASBanner2_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9AA305F86A7A9D1C62A9E491D7F194BF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D4F2C8C601A7ADB1F03F79B7D02FFD9C /* LICENSE */,
+				C183131B39F5AA4F3E0CB3AC49DB0E5B /* README.md */,
+				08D30388DC10821A0E9B311A20D80F2C /* SASBanner2.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9D4D666425122D190026008B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9D4D666A25122E9F0026008B /* ImageViewController.swift */,
+				9D4D666B25122E9F0026008B /* ImageViewController.xib */,
+				9D4D666925122E9F0026008B /* PageSlideViewController.swift */,
+				9D4D666725122E9E0026008B /* PageSlideViewController.xib */,
+				9D4D666625122E9E0026008B /* ScrollViewBlock.swift */,
+				9D4D666825122E9E0026008B /* ScrollViewBlock.xib */,
+				9D4D666525122E9E0026008B /* ScrollViewBlock+Ext.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C27F764E2E3AA55C11D14CB318E8DA0E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F67DD422C903FC9000C279AEDCEFBDD /* SASBanner2.modulemap */,
+				1945FFBFDD238D232BBF2EBBCC086126 /* SASBanner2-dummy.m */,
+				79254FBE19D8373CC5E0568B129512EF /* SASBanner2-Info.plist */,
+				D610A7A12A4A8AC4BE55EAC68EFF75D4 /* SASBanner2-prefix.pch */,
+				E1A6C62A8759F9AD8907699F8E7294EF /* SASBanner2-umbrella.h */,
+				A0BA5264E64250B2196C14CCB500BE11 /* SASBanner2.debug.xcconfig */,
+				1F6E05BCD86D232FAD6173DCBB0129A9 /* SASBanner2.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SASBanner2";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				93D8BB9178F5A2A46CB209D82B361801 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8FC0BAAF57F03CB81EEA0049278798D3 /* Products */,
+				93DCB9C9EFBCB79A30E745A526865CA3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3E7DA88B8033351F79FD179881C901F /* SASBanner2 */ = {
+			isa = PBXGroup;
+			children = (
+				9D4D666425122D190026008B /* Source */,
+				E44D4C5915C2966EAC9154382B3EE677 /* ReplaceMe.swift */,
+				9AA305F86A7A9D1C62A9E491D7F194BF /* Pod */,
+				C27F764E2E3AA55C11D14CB318E8DA0E /* Support Files */,
+			);
+			name = SASBanner2;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EDF9F48F882BAF32AE440D81436FFB08 /* Pods-SASBanner2_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2BE3E6347B0A019398CD8B7CC5AAA9FE /* Pods-SASBanner2_Tests.modulemap */,
+				B254DFE839C33441A9A19B29688A3FE6 /* Pods-SASBanner2_Tests-acknowledgements.markdown */,
+				0F73E3CA16D7482502CD1F722EAEDC5F /* Pods-SASBanner2_Tests-acknowledgements.plist */,
+				FCBBE9C7715D59E9DDC7BC551E48DF6B /* Pods-SASBanner2_Tests-dummy.m */,
+				B9EDD1C0FEB3716ADA83DB5B85B43062 /* Pods-SASBanner2_Tests-Info.plist */,
+				69333BF1D43418EDB21B4BFDE60F4ABF /* Pods-SASBanner2_Tests-umbrella.h */,
+				2C3CAC102A04E3137445A1D0FE9B0348 /* Pods-SASBanner2_Tests.debug.xcconfig */,
+				AF768A241959A758EC1195F133D49607 /* Pods-SASBanner2_Tests.release.xcconfig */,
+			);
+			name = "Pods-SASBanner2_Tests";
+			path = "Target Support Files/Pods-SASBanner2_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		39C93E7865B54F172D13417875C808C7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44F216FED60ADFEC0684DCC41ECD2462 /* Pods-SASBanner2_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48829D14269EAC3B707513E447C07E2A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80DDAE43CAB132DC96791151BF1E28DF /* SASBanner2-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEDD4EC073EB68791730E1E22E8F13D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD2105ED4ADD8CF5D038235DB6E1D9EE /* Pods-SASBanner2_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5858E8AE7D5C0CD3DDB52346C91DCC10 /* SASBanner2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C86E8BA578D12B72F5BAF6FFCBCE8F2F /* Build configuration list for PBXNativeTarget "SASBanner2" */;
+			buildPhases = (
+				48829D14269EAC3B707513E447C07E2A /* Headers */,
+				2BD1D332DDD20723DEE7B40C4DBFD916 /* Sources */,
+				A2D5FBDDB0B749A867785C1FFFF2B651 /* Frameworks */,
+				E5F7B3AE184DC0ACE8757860A6165A08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SASBanner2;
+			productName = SASBanner2;
+			productReference = 3347F22A2CA2752F2553C9A81046C7C4 /* SASBanner2.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A9E2DFE3E40EB0A82CBBCE2864827272 /* Pods-SASBanner2_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042D8A32DDE58E937C1B0A3E15930262 /* Build configuration list for PBXNativeTarget "Pods-SASBanner2_Example" */;
+			buildPhases = (
+				FEDD4EC073EB68791730E1E22E8F13D4 /* Headers */,
+				06A730C9ED11E5F9CF2163946B7BD0B1 /* Sources */,
+				AFD6AEB884195C985489555319D8F2DB /* Frameworks */,
+				D8D69E6DE186E9717B024B74C0BE7128 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D030A84F729648E6F879D9DE1D027130 /* PBXTargetDependency */,
+			);
+			name = "Pods-SASBanner2_Example";
+			productName = "Pods-SASBanner2_Example";
+			productReference = 75FE7DE634E5C93249077A7B93B7472B /* Pods_SASBanner2_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D51D11FC938922CAD151677710078E8D /* Pods-SASBanner2_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 230DF51ECA0E1B14A7239BE9DABCC3C8 /* Build configuration list for PBXNativeTarget "Pods-SASBanner2_Tests" */;
+			buildPhases = (
+				39C93E7865B54F172D13417875C808C7 /* Headers */,
+				5C8FE3C0EA1EACD0E7A2FAC7A34CCAF4 /* Sources */,
+				B7BFD56A66B891A039C0C1D7080B815A /* Frameworks */,
+				1EC4F525AD7632E32366416FB80DEA6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A34EFF4E8A13562D5F5AD0CA934F52EB /* PBXTargetDependency */,
+			);
+			name = "Pods-SASBanner2_Tests";
+			productName = "Pods-SASBanner2_Tests";
+			productReference = 4C142D574EAF9937FBB86BEAD06B70E7 /* Pods_SASBanner2_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					A9E2DFE3E40EB0A82CBBCE2864827272 = {
+						LastSwiftMigration = 1170;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8FC0BAAF57F03CB81EEA0049278798D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9E2DFE3E40EB0A82CBBCE2864827272 /* Pods-SASBanner2_Example */,
+				D51D11FC938922CAD151677710078E8D /* Pods-SASBanner2_Tests */,
+				5858E8AE7D5C0CD3DDB52346C91DCC10 /* SASBanner2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EC4F525AD7632E32366416FB80DEA6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D69E6DE186E9717B024B74C0BE7128 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5F7B3AE184DC0ACE8757860A6165A08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D4D667425122EE60026008B /* ImageViewController.xib in Resources */,
+				9D4D667825122EE60026008B /* ScrollViewBlock.xib in Resources */,
+				9D4D667625122EE60026008B /* PageSlideViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06A730C9ED11E5F9CF2163946B7BD0B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F0F99DE18EB95EFCE46ED60D2B1A8D /* Pods-SASBanner2_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BD1D332DDD20723DEE7B40C4DBFD916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D4D667725122EE60026008B /* ScrollViewBlock.swift in Sources */,
+				F51A0F8999DA2B4801CDC3633E06FDE8 /* ReplaceMe.swift in Sources */,
+				9D4D667525122EE60026008B /* PageSlideViewController.swift in Sources */,
+				9D4D667925122EE60026008B /* ScrollViewBlock+Ext.swift in Sources */,
+				9D4D667325122EE00026008B /* ImageViewController.swift in Sources */,
+				DCA75E296314E1A721012D20B25D9F3F /* SASBanner2-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C8FE3C0EA1EACD0E7A2FAC7A34CCAF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C014407ECDE19F59D181B99B60C7FFC /* Pods-SASBanner2_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A34EFF4E8A13562D5F5AD0CA934F52EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SASBanner2_Example";
+			target = A9E2DFE3E40EB0A82CBBCE2864827272 /* Pods-SASBanner2_Example */;
+			targetProxy = CB139841275FCCD9D780D1BCEF3CEBB7 /* PBXContainerItemProxy */;
+		};
+		D030A84F729648E6F879D9DE1D027130 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SASBanner2;
+			target = 5858E8AE7D5C0CD3DDB52346C91DCC10 /* SASBanner2 */;
+			targetProxy = 01BFC47D6AD1B39F4EC1BAEE6D9E26F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		19124B2A04818383E7FD1805DAFBF5BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF768A241959A758EC1195F133D49607 /* Pods-SASBanner2_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SASBanner2_Tests/Pods-SASBanner2_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SASBanner2_Tests/Pods-SASBanner2_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		264A9F638BB029C9415E7128794E01AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		31059FC4CDCFE28D42E245A795B024B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8990456B417EF48A1C0614F313B69FF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63E7442B03EBDEC260B65AA94C774D87 /* Pods-SASBanner2_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SASBanner2_Example/Pods-SASBanner2_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SASBanner2_Example/Pods-SASBanner2_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BAA0C6DB6B437360F2A660EC5EFACD9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 089E3A14F4CCE7A46C06BD57F0AAE5B8 /* Pods-SASBanner2_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SASBanner2_Example/Pods-SASBanner2_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SASBanner2_Example/Pods-SASBanner2_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DBF994CDA0DB8AEEB193BE3F0B02418D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C3CAC102A04E3137445A1D0FE9B0348 /* Pods-SASBanner2_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SASBanner2_Tests/Pods-SASBanner2_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SASBanner2_Tests/Pods-SASBanner2_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E6849FD10C2F5857B017EF698B36CBBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F6E05BCD86D232FAD6173DCBB0129A9 /* SASBanner2.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SASBanner2/SASBanner2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SASBanner2/SASBanner2-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SASBanner2/SASBanner2.modulemap";
+				PRODUCT_MODULE_NAME = SASBanner2;
+				PRODUCT_NAME = SASBanner2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F8CA327AD0AE8382286A40B25FD457E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0BA5264E64250B2196C14CCB500BE11 /* SASBanner2.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SASBanner2/SASBanner2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SASBanner2/SASBanner2-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SASBanner2/SASBanner2.modulemap";
+				PRODUCT_MODULE_NAME = SASBanner2;
+				PRODUCT_NAME = SASBanner2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		042D8A32DDE58E937C1B0A3E15930262 /* Build configuration list for PBXNativeTarget "Pods-SASBanner2_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8990456B417EF48A1C0614F313B69FF2 /* Debug */,
+				BAA0C6DB6B437360F2A660EC5EFACD9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		230DF51ECA0E1B14A7239BE9DABCC3C8 /* Build configuration list for PBXNativeTarget "Pods-SASBanner2_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF994CDA0DB8AEEB193BE3F0B02418D /* Debug */,
+				19124B2A04818383E7FD1805DAFBF5BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31059FC4CDCFE28D42E245A795B024B8 /* Debug */,
+				264A9F638BB029C9415E7128794E01AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C86E8BA578D12B72F5BAF6FFCBCE8F2F /* Build configuration list for PBXNativeTarget "SASBanner2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8CA327AD0AE8382286A40B25FD457E1 /* Debug */,
+				E6849FD10C2F5857B017EF698B36CBBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module SASBanner2 {
+  umbrella header "SASBanner2-umbrella.h"
+
+  export *
+  module * { export * }
+}
