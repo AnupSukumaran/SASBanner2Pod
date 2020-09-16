@@ -46,7 +46,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6DA92E2138728322311CAD4E /* Pods_SASBanner2_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SASBanner2_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D36F86F8AC9DFAFE50BAD3B2 /* SASBanner2.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SASBanner2.podspec; path = ../SASBanner2.podspec; sourceTree = "<group>"; };
+		D36F86F8AC9DFAFE50BAD3B2 /* SASBanner2.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SASBanner2.podspec; path = ../SASBanner2.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
