@@ -37,13 +37,10 @@ public class ScrollViewBlock: UIView {
         self.images = images
         settingPageViewController(baseVC: baseVC, imageContentFit: imageFit)
         self.scrollInterval = scrollInterval
-        guard scrollInterval > 0 else {return}
-        
-        gameTimer = Timer.scheduledTimer(timeInterval: scrollInterval, target: self, selector: #selector(authenticate), userInfo: nil, repeats: true)
 
     }
     
-    @objc func authenticate() {
+    @objc func timerAction() {
         pageVC.forwardPage()
     }
     
@@ -53,7 +50,7 @@ public class ScrollViewBlock: UIView {
     
     public func startAutoScroll(){
         stopAutoScroll()
-        gameTimer = Timer.scheduledTimer(timeInterval: scrollInterval, target: self, selector: #selector(authenticate), userInfo: nil, repeats: true)
+        gameTimer = Timer.scheduledTimer(timeInterval: scrollInterval, target: self, selector: #selector(timerAction), userInfo: nil, repeats: true)
     }
 
 }

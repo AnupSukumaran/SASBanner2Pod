@@ -45,17 +45,28 @@
                                     <action selector="btnAction2" destination="vXZ-lx-hvc" eventType="touchUpInside" id="G1E-H0-VnS"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Htk-ma-hhi">
+                                <rect key="frame" x="167" y="625" width="80" height="67"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="callVCAction" destination="vXZ-lx-hvc" eventType="touchUpInside" id="L7C-8y-HIL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="hnE-Po-sQj" firstAttribute="width" secondItem="NwI-fv-0Wi" secondAttribute="width" id="5Ra-Pd-Fs7"/>
                             <constraint firstItem="hnE-Po-sQj" firstAttribute="top" secondItem="NwI-fv-0Wi" secondAttribute="bottom" constant="47" id="DEM-BD-Kn9"/>
+                            <constraint firstItem="Htk-ma-hhi" firstAttribute="width" secondItem="hnE-Po-sQj" secondAttribute="width" multiplier="0.701754" id="Gh5-Wm-11S"/>
                             <constraint firstItem="NwI-fv-0Wi" firstAttribute="centerX" secondItem="C2w-rV-Lui" secondAttribute="centerX" id="Km3-pc-3rW"/>
                             <constraint firstItem="hnE-Po-sQj" firstAttribute="height" secondItem="NwI-fv-0Wi" secondAttribute="height" id="Ohp-Ed-usQ"/>
                             <constraint firstItem="NwI-fv-0Wi" firstAttribute="top" secondItem="C2w-rV-Lui" secondAttribute="bottom" constant="137" id="PqJ-RT-75b"/>
+                            <constraint firstItem="Htk-ma-hhi" firstAttribute="centerX" secondItem="hnE-Po-sQj" secondAttribute="centerX" id="S2a-HU-Aq4"/>
                             <constraint firstItem="C2w-rV-Lui" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="WCu-aR-nIq"/>
                             <constraint firstItem="hnE-Po-sQj" firstAttribute="centerX" secondItem="NwI-fv-0Wi" secondAttribute="centerX" id="X3T-Lh-T9O"/>
+                            <constraint firstItem="Htk-ma-hhi" firstAttribute="height" secondItem="hnE-Po-sQj" secondAttribute="height" multiplier="1.09836" id="hLs-B4-Bf8"/>
                             <constraint firstItem="C2w-rV-Lui" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="svB-rU-bIC"/>
+                            <constraint firstItem="Htk-ma-hhi" firstAttribute="top" secondItem="hnE-Po-sQj" secondAttribute="bottom" constant="38" id="xet-ju-vRj"/>
                             <constraint firstAttribute="trailing" secondItem="C2w-rV-Lui" secondAttribute="trailing" id="zi1-Hc-3gC"/>
                         </constraints>
                     </view>
@@ -66,6 +77,42 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-39.130434782608695" y="118.52678571428571"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="Yfg-ti-Nsg">
+            <objects>
+                <viewController storyboardIdentifier="SecondViewController" id="Q5V-SQ-Khh" customClass="SecondViewController" customModule="SASBanner2_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wyy-qi-5dB"/>
+                        <viewControllerLayoutGuide type="bottom" id="RHh-Vb-bg3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4ZW-yM-1r8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jax-C3-W1o">
+                                <rect key="frame" x="147.66666666666666" y="421.66666666666669" width="118.99999999999997" height="53"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="119" id="DE9-1d-59l"/>
+                                    <constraint firstAttribute="height" constant="53" id="pGK-Eh-WHb"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="dismiSSView" destination="Q5V-SQ-Khh" eventType="touchUpInside" id="gYe-J6-Qbf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="jax-C3-W1o" firstAttribute="centerX" secondItem="4ZW-yM-1r8" secondAttribute="centerX" id="BKj-pq-EkC"/>
+                            <constraint firstItem="jax-C3-W1o" firstAttribute="centerY" secondItem="4ZW-yM-1r8" secondAttribute="centerY" id="dpf-VM-7AF"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="GvQ-at-cvN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sr8-zi-ACk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="782.60869565217399" y="116.51785714285714"/>
         </scene>
     </scenes>
 </document>

@@ -29,6 +29,12 @@ class ViewController: UIViewController {
         bannerView.startAutoScroll()
         bannerView.pageVC.backwardPage()
     }
+    
 
+    @IBAction func callVCAction() {
+        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SecondViewController") as! SecondViewController
+        vc.modalPresentationStyle = .fullScreen
+        present(vc, animated: true, completion: nil)
+    }
 }
 

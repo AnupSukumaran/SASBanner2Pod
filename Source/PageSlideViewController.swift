@@ -29,6 +29,16 @@ public class PageSlideViewController: UIPageViewController {
         }
     }
     
+    public override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+         pageDelegate?.timer(started: true)
+    }
+    
+    public override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        pageDelegate?.timer(started: false)
+    }
+    
     func contentViewController(at index: Int) -> ImageViewController? {
         
         if index < 0 || index >= images.count {
