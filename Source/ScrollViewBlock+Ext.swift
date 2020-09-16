@@ -46,12 +46,12 @@ extension ScrollViewBlock: UIScrollViewDelegate {
         }
         pageVC.imageContentFit = imageContentFit
         pageControl.isHidden = false
-        baseVC.view.bringSubview(toFront: pageControl)
+        baseVC.view.bringSubviewToFront(pageControl)
 
-        baseVC.addChildViewController(pageVC)
+        baseVC.addChild(pageVC)//addChildViewController(pageVC)
         pageVC.view.frame = bounds
         contentView!.addSubview(pageVC.view)
-        pageVC.didMove(toParentViewController: baseVC)
+        pageVC.didMove(toParent: baseVC)
         
         self.pageVC = pageVC
     }
@@ -64,7 +64,7 @@ extension ScrollViewBlock: UIScrollViewDelegate {
     func pageControlSetupForViews(views: [UIView]) {
         pageControl.numberOfPages = views.count
         pageControl.currentPage = 0
-        bringSubview(toFront: pageControl)
+        bringSubviewToFront(pageControl)
     }
 
     func actionAfterScrolling(_ scrollView: UIScrollView, pageControl: UIPageControl, view: UIView) {
