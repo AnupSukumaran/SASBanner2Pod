@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SASBanner2'
-  s.version          = '1.3.0'
+  s.version          = '1.4.0'
   s.summary          = 'SASBanner2 - new version of SASBanner.'
 
 # This description is used to generate tags and improve search results.
@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
   s.platforms = {
       "ios":"10.0"
   }
-  s.resources = [ "Source/ScrollViewBlock.xib", "Source/ImageViewController.xib", "Source/PageSlideViewController.xib"]
+  s.resources = [ "Source/SASScrollViewBlock.xib", "Source/SASImageViewController.xib", "Source/SASPageSlideViewController.xib"]
   # s.resource_bundles = {
   #   'SASBanner2' => ['SASBanner2/Assets/*.png']
   # }
