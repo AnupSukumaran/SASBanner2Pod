@@ -12,7 +12,7 @@ import WebKit
 extension ScrollViewBlock: UIScrollViewDelegate {
     
     public func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        actionAfterScrolling(scrollView, pageControl: pageControl, view: self)
+        actionAfterScrolling(scrollView, pageControl: pgControl, view: self)
     }
     
     func loadViewFromNib(_ bgColor: UIColor = .white) -> UIView? {
@@ -46,8 +46,8 @@ extension ScrollViewBlock: UIScrollViewDelegate {
         }
         pageVC.pageDelegate = self
         pageVC.imageContentFit = imageContentFit
-        pageControl.isHidden = false
-        baseVC.view.bringSubviewToFront(pageControl)
+        pgControl.isHidden = false
+        baseVC.view.bringSubviewToFront(pgControl)
 
         baseVC.addChild(pageVC)//addChildViewController(pageVC)
         pageVC.view.frame = bounds
@@ -58,14 +58,14 @@ extension ScrollViewBlock: UIScrollViewDelegate {
     }
     
     func pageControlSetup() {
-        pageControl.numberOfPages = images?.count ?? 0
-        pageControl.currentPage = 0
+        pgControl.numberOfPages = images?.count ?? 0
+        pgControl.currentPage = 0
     }
 
     func pageControlSetupForViews(views: [UIView]) {
-        pageControl.numberOfPages = views.count
-        pageControl.currentPage = 0
-        bringSubviewToFront(pageControl)
+        pgControl.numberOfPages = views.count
+        pgControl.currentPage = 0
+        bringSubviewToFront(pgControl)
     }
 
     func actionAfterScrolling(_ scrollView: UIScrollView, pageControl: UIPageControl, view: UIView) {

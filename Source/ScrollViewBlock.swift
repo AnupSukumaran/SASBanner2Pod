@@ -12,7 +12,7 @@ import UIKit
 @IBDesignable
 public class ScrollViewBlock: UIView {
   
-    @IBOutlet public weak var pageControl: UIPageControl!
+    @IBOutlet public weak var pgControl: UIPageControl!
     
     public var pageVC: PageSlideViewController!
     public var baseVC: UIViewController!

@@ -23,7 +23,6 @@
 		AD2105ED4ADD8CF5D038235DB6E1D9EE /* Pods-SASBanner2_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8AA7D724B27AE06B421535581C8E986 /* Pods-SASBanner2_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DCA75E296314E1A721012D20B25D9F3F /* SASBanner2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1945FFBFDD238D232BBF2EBBCC086126 /* SASBanner2-dummy.m */; };
 		E92C17E20151D518142619BB90C8A159 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		F51A0F8999DA2B4801CDC3633E06FDE8 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44D4C5915C2966EAC9154382B3EE677 /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,7 +80,6 @@
 		D5F3819B0646F5A25D0F6D4DD06E03F0 /* Pods-SASBanner2_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SASBanner2_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D610A7A12A4A8AC4BE55EAC68EFF75D4 /* SASBanner2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SASBanner2-prefix.pch"; sourceTree = "<group>"; };
 		E1A6C62A8759F9AD8907699F8E7294EF /* SASBanner2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SASBanner2-umbrella.h"; sourceTree = "<group>"; };
-		E44D4C5915C2966EAC9154382B3EE677 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SASBanner2/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		F8AA7D724B27AE06B421535581C8E986 /* Pods-SASBanner2_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SASBanner2_Example-umbrella.h"; sourceTree = "<group>"; };
 		FCBBE9C7715D59E9DDC7BC551E48DF6B /* Pods-SASBanner2_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SASBanner2_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -228,7 +226,6 @@
 			isa = PBXGroup;
 			children = (
 				9D4D666425122D190026008B /* Source */,
-				E44D4C5915C2966EAC9154382B3EE677 /* ReplaceMe.swift */,
 				9AA305F86A7A9D1C62A9E491D7F194BF /* Pod */,
 				C27F764E2E3AA55C11D14CB318E8DA0E /* Support Files */,
 			);
@@ -423,7 +420,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D4D667725122EE60026008B /* ScrollViewBlock.swift in Sources */,
-				F51A0F8999DA2B4801CDC3633E06FDE8 /* ReplaceMe.swift in Sources */,
 				9D4D667525122EE60026008B /* PageSlideViewController.swift in Sources */,
 				9D4D667925122EE60026008B /* ScrollViewBlock+Ext.swift in Sources */,
 				9D4D667325122EE00026008B /* ImageViewController.swift in Sources */,
