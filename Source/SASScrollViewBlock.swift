@@ -10,11 +10,11 @@ import UIKit
 
 
 @IBDesignable
-public class ScrollViewBlock: UIView {
+public class SASScrollViewBlock: UIView {
   
     @IBOutlet public weak var pgControl: UIPageControl!
     
-    public var pageVC: PageSlideViewController!
+    public var pageVC: SASPageSlideViewController!
     public var baseVC: UIViewController!
     public var viewBGColor: UIColor = .green
     public var images: [UIImage?]?

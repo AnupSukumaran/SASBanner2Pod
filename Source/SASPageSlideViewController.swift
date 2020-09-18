@@ -7,18 +7,18 @@
 
 import UIKit
 
-public protocol PageSlideViewControllerDelegate: class {
+public protocol SASPageSlideViewControllerDelegate: class {
     func timer(started: Bool)
     
 }
 
-public class PageSlideViewController: UIPageViewController {
+public class SASPageSlideViewController: UIPageViewController {
 
    var images = [UIImage]()
    var imageContentFit: UIImageView.ContentMode = .scaleAspectFit
    var currentIndex = 0
    var itemIndex = 0
-   weak public var pageDelegate: PageSlideViewControllerDelegate?
+   weak public var pageDelegate: SASPageSlideViewControllerDelegate?
     
     public override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,7 +39,7 @@ public class PageSlideViewController: UIPageViewController {
         pageDelegate?.timer(started: false)
     }
     
-    func contentViewController(at index: Int) -> ImageViewController? {
+    func contentViewController(at index: Int) -> SASImageViewController? {
         
         if index < 0 || index >= images.count {
             return callImageViewController(imgIndex: 0)
@@ -49,9 +49,9 @@ public class PageSlideViewController: UIPageViewController {
         
     }
     
-    func callImageViewController(imgIndex: Int) -> ImageViewController? {
+    func callImageViewController(imgIndex: Int) -> SASImageViewController? {
         let bundle = Bundle(for: type(of: self))
-        let vc = ImageViewController(nibName: "ImageViewController", bundle: bundle)
+        let vc = SASImageViewController(nibName: "SASImageViewController", bundle: bundle)
         guard !images.isEmpty else {return nil}
         vc.imageData = images[imgIndex]
         vc.index = imgIndex
@@ -92,9 +92,9 @@ public class PageSlideViewController: UIPageViewController {
 }
 
 
-extension PageSlideViewController: UIPageViewControllerDataSource, UIPageViewControllerDelegate {
+extension SASPageSlideViewController: UIPageViewControllerDataSource, UIPageViewControllerDelegate {
     public func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
-        var index = (viewController as! ImageViewController).index
+        var index = (viewController as! SASImageViewController).index
         if index > 0 {
             index -= 1
             return contentViewController(at: index)
@@ -105,7 +105,7 @@ extension PageSlideViewController: UIPageViewControllerDataSource, UIPageViewCon
     }
     
     public func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
-        var index = (viewController as! ImageViewController).index
+        var index = (viewController as! SASImageViewController).index
         index += 1
         
         return contentViewController(at: index)
@@ -114,9 +114,9 @@ extension PageSlideViewController: UIPageViewControllerDataSource, UIPageViewCon
     public func pageViewController(_ pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [UIViewController], transitionCompleted completed: Bool) {
         
         if completed {
-            if let contentViewController = pageViewController.viewControllers?.first as? ImageViewController {
+            if let contentViewController = pageViewController.viewControllers?.first as? SASImageViewController {
                 currentIndex = contentViewController.index
-                let timeInterval = (pageDelegate as? ScrollViewBlock)?.scrollInterval ?? 2
+                let timeInterval = (pageDelegate as? SASScrollViewBlock)?.scrollInterval ?? 2
                 perform(#selector(dealyedAction), with: nil, afterDelay: timeInterval)
                 pageDelegate?.timer(started: false)
             }

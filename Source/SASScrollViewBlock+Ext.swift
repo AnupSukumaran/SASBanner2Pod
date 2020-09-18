@@ -9,7 +9,7 @@
 import UIKit
 import WebKit
 
-extension ScrollViewBlock: UIScrollViewDelegate {
+extension SASScrollViewBlock: UIScrollViewDelegate {
     
     public func scrollViewDidScroll(_ scrollView: UIScrollView) {
         actionAfterScrolling(scrollView, pageControl: pgControl, view: self)
@@ -18,7 +18,7 @@ extension ScrollViewBlock: UIScrollViewDelegate {
     func loadViewFromNib(_ bgColor: UIColor = .white) -> UIView? {
 
         let bundle = Bundle(for: type(of: self))
-        let nib = UINib(nibName: "ScrollViewBlock", bundle: bundle)
+        let nib = UINib(nibName: "SASScrollViewBlock", bundle: bundle)
         let view = nib.instantiate(withOwner: self, options: nil)[0] as! UIView
         view.backgroundColor = bgColor
         return view
@@ -37,9 +37,9 @@ extension ScrollViewBlock: UIScrollViewDelegate {
     func settingPageViewController(baseVC: UIViewController, imageContentFit: UIImageView.ContentMode) {
        
         let bundle = Bundle(for: type(of: self))
-        var pageVC = PageSlideViewController(nibName: "PageSlideViewController", bundle: bundle)
+        var pageVC = SASPageSlideViewController(nibName: "SASPageSlideViewController", bundle: bundle)
         
-        pageVC = PageSlideViewController(transitionStyle: .scroll, navigationOrientation: .horizontal, options: nil)
+        pageVC = SASPageSlideViewController(transitionStyle: .scroll, navigationOrientation: .horizontal, options: nil)
         
         if let imgs = images {
             pageVC.images = imgs.compactMap{$0}
@@ -75,7 +75,7 @@ extension ScrollViewBlock: UIScrollViewDelegate {
     
 }
 
-extension ScrollViewBlock: PageSlideViewControllerDelegate {
+extension SASScrollViewBlock: SASPageSlideViewControllerDelegate {
     public func timer(started: Bool) {
         if started {
             startAutoScroll()

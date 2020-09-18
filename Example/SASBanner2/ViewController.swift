@@ -11,7 +11,7 @@ import SASBanner2
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var bannerView: ScrollViewBlock!
+    @IBOutlet weak var bannerView: SASScrollViewBlock!
     
     var dummyImgs = [UIImage(named: "1"),UIImage(named: "2"),UIImage(named: "3")]
     

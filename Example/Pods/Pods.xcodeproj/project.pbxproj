@@ -13,13 +13,13 @@
 		6385CDC5C9DEE1878A532E68A03D5F47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		80DDAE43CAB132DC96791151BF1E28DF /* SASBanner2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1A6C62A8759F9AD8907699F8E7294EF /* SASBanner2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98C0A1BAA01275D787CAD4346EB63C23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		9D4D667325122EE00026008B /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4D666A25122E9F0026008B /* ImageViewController.swift */; };
-		9D4D667425122EE60026008B /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D4D666B25122E9F0026008B /* ImageViewController.xib */; };
-		9D4D667525122EE60026008B /* PageSlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4D666925122E9F0026008B /* PageSlideViewController.swift */; };
-		9D4D667625122EE60026008B /* PageSlideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D4D666725122E9E0026008B /* PageSlideViewController.xib */; };
-		9D4D667725122EE60026008B /* ScrollViewBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4D666625122E9E0026008B /* ScrollViewBlock.swift */; };
-		9D4D667825122EE60026008B /* ScrollViewBlock.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D4D666825122E9E0026008B /* ScrollViewBlock.xib */; };
-		9D4D667925122EE60026008B /* ScrollViewBlock+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4D666525122E9E0026008B /* ScrollViewBlock+Ext.swift */; };
+		9D4D667325122EE00026008B /* SASImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4D666A25122E9F0026008B /* SASImageViewController.swift */; };
+		9D4D667425122EE60026008B /* SASImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D4D666B25122E9F0026008B /* SASImageViewController.xib */; };
+		9D4D667525122EE60026008B /* SASPageSlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4D666925122E9F0026008B /* SASPageSlideViewController.swift */; };
+		9D4D667625122EE60026008B /* SASPageSlideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D4D666725122E9E0026008B /* SASPageSlideViewController.xib */; };
+		9D4D667725122EE60026008B /* SASScrollViewBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4D666625122E9E0026008B /* SASScrollViewBlock.swift */; };
+		9D4D667825122EE60026008B /* SASScrollViewBlock.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D4D666825122E9E0026008B /* SASScrollViewBlock.xib */; };
+		9D4D667925122EE60026008B /* SASScrollViewBlock+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4D666525122E9E0026008B /* SASScrollViewBlock+Ext.swift */; };
 		AD2105ED4ADD8CF5D038235DB6E1D9EE /* Pods-SASBanner2_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8AA7D724B27AE06B421535581C8E986 /* Pods-SASBanner2_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DCA75E296314E1A721012D20B25D9F3F /* SASBanner2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1945FFBFDD238D232BBF2EBBCC086126 /* SASBanner2-dummy.m */; };
 		E92C17E20151D518142619BB90C8A159 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -62,13 +62,13 @@
 		79254FBE19D8373CC5E0568B129512EF /* SASBanner2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SASBanner2-Info.plist"; sourceTree = "<group>"; };
 		7CFB8E682AAC2861CE353E96D12ACB3B /* Pods-SASBanner2_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SASBanner2_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9621E0FD45BFF4E650BDC7F53EC321AE /* Pods-SASBanner2_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SASBanner2_Example.modulemap"; sourceTree = "<group>"; };
-		9D4D666525122E9E0026008B /* ScrollViewBlock+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ScrollViewBlock+Ext.swift"; sourceTree = "<group>"; };
-		9D4D666625122E9E0026008B /* ScrollViewBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewBlock.swift; sourceTree = "<group>"; };
-		9D4D666725122E9E0026008B /* PageSlideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageSlideViewController.xib; sourceTree = "<group>"; };
-		9D4D666825122E9E0026008B /* ScrollViewBlock.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScrollViewBlock.xib; sourceTree = "<group>"; };
-		9D4D666925122E9F0026008B /* PageSlideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageSlideViewController.swift; sourceTree = "<group>"; };
-		9D4D666A25122E9F0026008B /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
-		9D4D666B25122E9F0026008B /* ImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageViewController.xib; sourceTree = "<group>"; };
+		9D4D666525122E9E0026008B /* SASScrollViewBlock+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SASScrollViewBlock+Ext.swift"; sourceTree = "<group>"; };
+		9D4D666625122E9E0026008B /* SASScrollViewBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SASScrollViewBlock.swift; sourceTree = "<group>"; };
+		9D4D666725122E9E0026008B /* SASPageSlideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SASPageSlideViewController.xib; sourceTree = "<group>"; };
+		9D4D666825122E9E0026008B /* SASScrollViewBlock.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SASScrollViewBlock.xib; sourceTree = "<group>"; };
+		9D4D666925122E9F0026008B /* SASPageSlideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SASPageSlideViewController.swift; sourceTree = "<group>"; };
+		9D4D666A25122E9F0026008B /* SASImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SASImageViewController.swift; sourceTree = "<group>"; };
+		9D4D666B25122E9F0026008B /* SASImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SASImageViewController.xib; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0BA5264E64250B2196C14CCB500BE11 /* SASBanner2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SASBanner2.debug.xcconfig; sourceTree = "<group>"; };
 		AF768A241959A758EC1195F133D49607 /* Pods-SASBanner2_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SASBanner2_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -169,13 +169,13 @@
 		9D4D666425122D190026008B /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				9D4D666A25122E9F0026008B /* ImageViewController.swift */,
-				9D4D666B25122E9F0026008B /* ImageViewController.xib */,
-				9D4D666925122E9F0026008B /* PageSlideViewController.swift */,
-				9D4D666725122E9E0026008B /* PageSlideViewController.xib */,
-				9D4D666625122E9E0026008B /* ScrollViewBlock.swift */,
-				9D4D666825122E9E0026008B /* ScrollViewBlock.xib */,
-				9D4D666525122E9E0026008B /* ScrollViewBlock+Ext.swift */,
+				9D4D666A25122E9F0026008B /* SASImageViewController.swift */,
+				9D4D666B25122E9F0026008B /* SASImageViewController.xib */,
+				9D4D666925122E9F0026008B /* SASPageSlideViewController.swift */,
+				9D4D666725122E9E0026008B /* SASPageSlideViewController.xib */,
+				9D4D666625122E9E0026008B /* SASScrollViewBlock.swift */,
+				9D4D666825122E9E0026008B /* SASScrollViewBlock.xib */,
+				9D4D666525122E9E0026008B /* SASScrollViewBlock+Ext.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -398,9 +398,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D4D667425122EE60026008B /* ImageViewController.xib in Resources */,
-				9D4D667825122EE60026008B /* ScrollViewBlock.xib in Resources */,
-				9D4D667625122EE60026008B /* PageSlideViewController.xib in Resources */,
+				9D4D667425122EE60026008B /* SASImageViewController.xib in Resources */,
+				9D4D667825122EE60026008B /* SASScrollViewBlock.xib in Resources */,
+				9D4D667625122EE60026008B /* SASPageSlideViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,10 +419,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D4D667725122EE60026008B /* ScrollViewBlock.swift in Sources */,
-				9D4D667525122EE60026008B /* PageSlideViewController.swift in Sources */,
-				9D4D667925122EE60026008B /* ScrollViewBlock+Ext.swift in Sources */,
-				9D4D667325122EE00026008B /* ImageViewController.swift in Sources */,
+				9D4D667725122EE60026008B /* SASScrollViewBlock.swift in Sources */,
+				9D4D667525122EE60026008B /* SASPageSlideViewController.swift in Sources */,
+				9D4D667925122EE60026008B /* SASScrollViewBlock+Ext.swift in Sources */,
+				9D4D667325122EE00026008B /* SASImageViewController.swift in Sources */,
 				DCA75E296314E1A721012D20B25D9F3F /* SASBanner2-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
